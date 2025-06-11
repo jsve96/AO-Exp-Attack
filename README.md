@@ -54,7 +54,7 @@ python3 methods/AOEXPAttackVTMBATCH.py
 | `k`             | Attack mode: top-1 targeting or scalar multiplier                          | `'top1'` or `1.0`            |
 | `DEVICE`        | Device used for computation                                                 | `torch.device('cuda:0')`     |
 
-You can change all hyperparameter in /methods/AOEXPAttackVTMBATCH.py by modifying 
+You can change all hyperparameter in /methods/AOEXPAttackVTMBATCH.py by simply modifying 
 
 ```python3
 if __name__ == "__main__":
