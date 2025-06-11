@@ -29,6 +29,8 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 pip install -r requirements.txt
 ```
 
+Download dataset
+
 
 ### Usage
 If you want to run AO-Exp Attack on the VTM dataset then navigate to Repository and run:
