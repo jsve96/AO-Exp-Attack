@@ -11,7 +11,8 @@ REPO_PATH = os.path.dirname(current_file_path)
 
 print('repo: {}'.format(REPO_PATH))
 
-DATA_PATH = ["/home/jacob/datasets"]
+DATA_PATH = [REPO_PATH+"/data"]
+
 
 def load_data(name='BMC',source="",instance=""):
 
