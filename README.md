@@ -29,7 +29,10 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 pip install -r requirements.txt
 ```
 
-Download dataset
+You can place the dataset wherever you prefer. If you do so, then update:
+```python3
+DATA_PATH = ["path/to/dataset"]
+```
 
 
 ### Usage
@@ -82,3 +85,5 @@ if __name__ == "__main__":
         main(args) 
 
 ```
+
+If you want to run all experiments you need to run all python scripts in /methods.
